@@ -6,5 +6,17 @@
   {"id" : 2,
     "path" : "about",
     "name" : "About"
-    }
+  },
+  {"id" : 3,
+    "path" : "doctors",
+    "name" : "Doctors"
+  },
+  {"id" : 4,
+    "path" : "services",
+    "name" : "Services"
+  },
+  {"id" : 5,
+    "path" : "contact",
+    "name" : "Contact"
+  }
 ]
