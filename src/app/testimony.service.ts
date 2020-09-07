@@ -2,19 +2,19 @@ import { Injectable } from '@angular/core';
 import { HttpClient} from '@angular/common/http';
 import { Observable, throwError } from 'rxjs';
 import { catchError } from 'rxjs/operators';
-import { Nav } from 'src/app/models/nav.model';
+import { Testimony } from './models/testimony.model';
 
 @Injectable({
   providedIn: 'root'
 })
-export class Navigation {
-  // tslint:disable-next-line: variable-name
+export class TestimonyService {
+
   private _http: HttpClient;
   constructor(http: HttpClient) {
     this._http = http;
   }
-  getNavData(): Observable<Nav[]> {
-    return this._http.get<Nav[]>('../assets/data/nav.json').pipe(
+  getNavData(): Observable<Testimony[]> {
+    return this._http.get<Testimony[]>('../assets/data/testimony.json').pipe(
       catchError(error => {
         return throwError(error.error);
       })

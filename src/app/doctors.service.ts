@@ -2,19 +2,19 @@ import { Injectable } from '@angular/core';
 import { HttpClient} from '@angular/common/http';
 import { Observable, throwError } from 'rxjs';
 import { catchError } from 'rxjs/operators';
-import { Nav } from 'src/app/models/nav.model';
+import { Doctors } from './models/doctors.model';
 
 @Injectable({
   providedIn: 'root'
 })
-export class Navigation {
-  // tslint:disable-next-line: variable-name
+export class DoctorsService {
+
   private _http: HttpClient;
   constructor(http: HttpClient) {
     this._http = http;
   }
-  getNavData(): Observable<Nav[]> {
-    return this._http.get<Nav[]>('../assets/data/nav.json').pipe(
+  getNavData(): Observable<Doctors[]> {
+    return this._http.get<Doctors[]>('../assets/data/doctors.json').pipe(
       catchError(error => {
         return throwError(error.error);
       })

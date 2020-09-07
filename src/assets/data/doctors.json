@@ -1,0 +1,30 @@
+[
+    {
+        "id" : 1,
+        "img" : "assets/images/person_1.jpg",
+        "text" : "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
+        "position" : "Dentist",
+        "name" : "Dennis Green"
+    },
+    {
+        "id" : 2,
+        "img" : "assets/images/person_2.jpg",
+        "text" : "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
+        "position" : "Dentist",
+        "name" : "Pera Peric"
+    },
+    {
+        "id" : 3,
+        "img" : "assets/images/person_3.jpg",
+        "text" : "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
+        "position" : "Dentist",
+        "name" : "Mika Mikic"
+    },
+    {
+        "id" : 4,
+        "img" : "assets/images/person_4.jpg",
+        "text" : "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
+        "position" : "Dentist",
+        "name" : "Laza Lazic"
+    }
+]
