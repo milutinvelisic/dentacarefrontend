@@ -1,0 +1,44 @@
+[
+  {
+    "id" : 1,
+    "type" : "BASIC",
+    "price" : 25,
+    "services" : [
+      "Diagnostic Services",
+      "Professional Consultation"
+    ]
+  },
+  {
+    "id" : 2,
+    "type" : "STANDARD",
+    "price" : 30,
+    "services" : [
+      "Diagnostic Services",
+      "Professional Consultation",
+      "Tooth Implants"
+    ]
+  },
+  {
+    "id" : 3,
+    "type" : "PREMIUM",
+    "price" : 40,
+    "services" : [
+      "Diagnostic Services",
+      "Professional Consultation",
+      "Tooth Implants",
+      "Surgical Extractions"
+    ]
+  },
+  {
+    "id" : 4,
+    "type" : "PLATINUM",
+    "price" : 60,
+    "services" : [
+      "Diagnostic Services",
+      "Professional Consultation",
+      "Tooth Implants",
+      "Surgical Extractions",
+      "Teeth Whitening"
+    ]
+  }
+]

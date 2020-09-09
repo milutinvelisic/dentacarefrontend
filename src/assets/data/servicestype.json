@@ -1,0 +1,50 @@
+[
+  {
+    "id" : 1,
+    "name" : "Teeth Whitening",
+    "text" : "Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic",
+    "fa_icon" : "flaticon-tooth"
+  },
+  {
+    "id" : 2,
+    "name" : "Teeth Cleaning",
+    "text" : "Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic",
+    "fa_icon" : "flaticon-dental-care"
+  },
+  {
+    "id" : 3,
+    "name" : "Quality Brackets",
+    "text" : "Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic",
+    "fa_icon" : "flaticon-tooth-with-braces"
+  },
+  {
+    "id" : 4,
+    "name" : "Modern Anesthetic",
+    "text" : "Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic",
+    "fa_icon" : "flaticon-anesthesia"
+  },
+  {
+    "id" : 5,
+    "name" : "Dental Calculus",
+    "text" : "Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic",
+    "fa_icon" : "flaticon-dental-care"
+  },
+  {
+    "id" : 6,
+    "name" : "Paradontosis",
+    "text" : "Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic",
+    "fa_icon" : "flaticon-bacteria"
+  },
+  {
+    "id" : 7,
+    "name" : "Dental Implants",
+    "text" : "Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic",
+    "fa_icon" : "flaticon-dentist"
+  },
+  {
+    "id" : 8,
+    "name" : "Tooth Braces",
+    "text" : "Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic",
+    "fa_icon" : "flaticon-dental-care-1"
+  }
+]
