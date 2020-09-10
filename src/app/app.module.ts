@@ -25,27 +25,33 @@ import { ServicesHeaderComponent } from './services/services-header/services-hea
 import { ContactHeaderComponent } from './contact/contact-header/contact-header.component';
 import { ContactFormComponent } from './contact/contact-form/contact-form.component';
 import { ReadMorePipe } from './read-more.pipe';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 const appRoutes: Routes = [
   {
     path: '',
-    component : HomeComponent
+    component: HomeComponent,
+    data: { animationState: '' }
   },
   {
     path: 'about',
-    component : AboutComponent
+    component: AboutComponent,
+    data: { animationState: 'about' }
   },
   {
     path: 'services',
-    component : ServicesComponent
+    component: ServicesComponent,
+    data: { animationState: 'services' }
   },
   {
     path: 'doctors',
-    component : DoctorsComponent
+    component: DoctorsComponent,
+    data: { animationState: 'doctors' }
   },
   {
     path: 'contact',
-    component : ContactComponent
+    component: ContactComponent,
+    data: { animationState: 'contact' }
   }
 ];
 
@@ -78,6 +84,7 @@ const appRoutes: Routes = [
     AppRoutingModule,
     RouterModule.forRoot(appRoutes),
     FormsModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
