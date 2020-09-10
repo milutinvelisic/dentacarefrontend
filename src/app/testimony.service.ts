@@ -13,7 +13,7 @@ export class TestimonyService {
   constructor(http: HttpClient) {
     this._http = http;
   }
-  getNavData(): Observable<Testimony[]> {
+  getTestimonyData(): Observable<Testimony[]> {
     return this._http.get<Testimony[]>('../assets/data/testimony.json').pipe(
       catchError(error => {
         return throwError(error.error);

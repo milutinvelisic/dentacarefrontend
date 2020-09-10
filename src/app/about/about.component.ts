@@ -1,6 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { Testimony } from '../models/testimony.model';
-import { TestimonyService } from '../testimony.service';
 
 @Component({
   selector: 'app-about',
@@ -9,11 +7,7 @@ import { TestimonyService } from '../testimony.service';
 })
 export class AboutComponent implements OnInit {
 
-  testimonyData: Testimony[];
-
-  constructor(dependency: TestimonyService) {
-    dependency.getNavData().subscribe(data => this.testimonyData = data)
-  }
+  constructor() {}
 
   ngOnInit(): void {
   }

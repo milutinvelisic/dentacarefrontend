@@ -13,7 +13,7 @@ export class ServicestypeService {
   constructor(http: HttpClient) {
     this._http = http;
   }
-  getNavData(): Observable<ServicesType[]> {
+  getServiceType(): Observable<ServicesType[]> {
     return this._http.get<ServicesType[]>('../assets/data/servicestype.json').pipe(
       catchError(error => {
         return throwError(error.error);

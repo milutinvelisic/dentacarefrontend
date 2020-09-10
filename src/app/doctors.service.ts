@@ -13,7 +13,7 @@ export class DoctorsService {
   constructor(http: HttpClient) {
     this._http = http;
   }
-  getNavData(): Observable<Doctors[]> {
+  getDoctorsData(): Observable<Doctors[]> {
     return this._http.get<Doctors[]>('../assets/data/doctors.json').pipe(
       catchError(error => {
         return throwError(error.error);

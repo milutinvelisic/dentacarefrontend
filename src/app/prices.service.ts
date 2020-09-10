@@ -13,7 +13,7 @@ export class PricesService {
   constructor(http: HttpClient) {
     this._http = http;
   }
-  getNavData(): Observable<Prices[]> {
+  getPriceData(): Observable<Prices[]> {
     return this._http.get<Prices[]>('../assets/data/prices.json').pipe(
       catchError(error => {
         return throwError(error.error);
